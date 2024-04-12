@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.progressScroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.progressScroll::-webkit-scrollbar-track {
+  appearance: none;
+  background: #030d4d;
+  border-radius: 50px;
+}
+
+.progressScroll::-webkit-scrollbar-thumb {
+  appearance: none;
+  background: #e6e7ec;
+  border-radius: 50px;
+}
+
+.font-outline {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
